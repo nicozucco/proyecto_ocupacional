@@ -1,0 +1,214 @@
+:root {
+	--rojo: #E50914;
+	--fondo: #141414;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--fondo);
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	padding: 15px 0;
+
+}
+
+header .contenedor {
+	display: flex;
+	justify-content:left;
+	align-items: center;
+}
+
+header .logotipo {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: normal;
+	color: var(--rojo);
+	font-size: 40px;
+}
+
+header nav a {
+	color: #AAA;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo {
+	color: #FFF;
+}
+
+/* ---- ----- ----- Pelicula Principal ----- ----- ----- */
+.contenedor-grande{
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/background.jpg);
+	background-position: center center;
+	background-size: cover;
+
+}
+
+
+.pelicula-principal {
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+
+.pelicula-principal .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+
+.pelicula-principal .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+
+.pelicula-principal .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+
+.pelicula-principal .boton {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+
+.pelicula-principal .boton:hover {
+	background: #fff;
+	color: #000;
+}
+
+.pelicula-principal .boton i {
+	margin-right: 1.25em;
+}
+
+.gradient{
+	background-image: linear-gradient(180deg, black, rgba(207, 14, 14, 0));
+}
+
+.navi{
+	margin-left: 30px;
+}
+
+.navi2{
+	margin-left: 650px;
+}
+
+.album{
+	background-color: rgb(20, 20, 20);
+}
+
+.separador{
+	background-image: linear-gradient(180deg, black, rgb(20, 20, 20));
+	margin-top: -50px;
+	height: 32px;
+}
+
+.episodio{
+	color: white;
+	font-size: 32px;
+	text-align: center;
+
+}
+
+.episodios{
+	color: white;
+	font-size: 48px;
+	text-align: left;
+	margin-left: 100px;
+	margin-bottom: 20px;
+
+}
+
+.description{
+	color: white;
+}
+
+/* ---- ----- ----- Capitulos ----- ----- ----- */
+
+.contenedor-episode1{
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/episode1.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+.contenedor-episode2{
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/episode2.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+.contenedor-episode3{
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/episode3.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+.contenedor-episode4{
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/episode4.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+.frame{
+	background-image: linear-gradient(0deg, black, rgb(20, 20, 20));
+	margin-top: -50px;
+	height: 64px;
+}
+
+.navi3{
+	margin-left: 30px;
+	padding-top: 25px;
+}
+
+.navi4{
+	margin-left: 650px;
+	margin-top: -40px;
+}
+
+.contenido-episodio {
+	width: 90%;
+	margin: auto;
+	justify-content:left;
+	align-items: center;
+	margin-left: 100px;
+	margin-top: 120px;
+}
+
+.contenido{
+font-weight: normal;
+	font-size: 24px;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+	color: white;
+}
+
+.col-12{
+	margin-bottom: 20px !important;
+}
